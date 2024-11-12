@@ -1,0 +1,15 @@
+main .cartao .form .sexo-geral .sexo .sexo-masculino .masculino-label:hover,
+main .cartao .form .sexo-geral .sexo .sexo-feminino .feminino-label:hover
+{
+    cursor: pointer;
+}
+
+main .cartao .form .cadastre-se:hover {
+    cursor: pointer;
+    transition: 0.6s;
+    height: 70px;
+    width: 230px;
+    margin-top: 25px;
+    font-size: 27px;
+    box-shadow: 0px 0px 20px white;
+}

@@ -1,0 +1,193 @@
+body {
+    font-family: "Exo", sans-serif;
+    background-image: url("../images/background-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main .cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 500px;
+    border-radius: 15px;
+    border: 2px solid white;
+    color: white;
+    backdrop-filter: blur(15px);
+}
+
+main .cartao .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .cartao .content .logo {
+    width: 250px;
+    margin-bottom: 25px;
+}
+
+main .cartao .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .cartao .form .nome-sobrenome,
+main .cartao .form .senha-senha-confirm
+{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+main .cartao .form .email-email-confirm {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+main .cartao .form .nome-sobrenome input,
+main .cartao .form .senha-senha-confirm input
+{
+    font-family: "Exo", sans-serif;
+    height: 30px;
+    width: 190px;
+    border-radius: 10px;
+    color: var(--light-pink);
+    background-color: white;
+    border: 2px solid var(--light-pink);
+}
+
+main .cartao .form .email-email-confirm input {
+    font-family: "Exo", sans-serif;
+    height: 30px;
+    width: 395px;
+    border-radius: 10px;
+    color: var(--light-pink);
+    background-color: white;
+    border: 2px solid var(--light-pink);
+}
+
+main .cartao .form .nome-sobrenome input::placeholder,
+main .cartao .form .email-email-confirm input::placeholder,
+main .cartao .form .senha-senha-confirm input::placeholder
+{
+    color: var(--light-pink);
+    opacity: 0.7;
+}
+
+main .cartao .form .nome-sobrenome input:focus,
+main .cartao .form .email-email-confirm input:focus,
+main .cartao .form .senha-senha-confirm input:focus,
+main .cartao .form .birthday-date input:focus
+{
+    outline: none;
+}
+
+main .cartao .form .nome-sobrenome input:-webkit-autofill,
+main .cartao .form .email-email-confirm input:-webkit-autofill,
+main .cartao .form .senha-senha-confirm input:-webkit-autofill,
+main .cartao .form .birthday-date input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+    box-shadow: 0 0 0 1000px white inset;
+    -webkit-text-fill-color: var(--light-pink);
+}
+
+main .cartao .form .birthday-date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .cartao .form .birthday-date .title,
+.birthday {
+    font-family: "Exo", sans-serif;
+}
+
+main .cartao .form .birthday-date .title {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+main .cartao .form .birthday-date .birthday {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    color: var(--light-pink);
+    background-color: white;
+    border: 2px solid var(--light-pink);
+}
+
+main .cartao .form .sexo-geral {
+    display: flex;
+    flex-direction: column;
+}
+
+main .cartao .form .sexo-geral .title {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+main .cartao .form .sexo-geral .sexo {
+    display: flex;
+    gap: 40px;
+}
+
+main .cartao .form .sexo-geral .sexo .sexo-masculino,
+.sexo-feminino {
+    display: flex;
+    gap: 5px;
+    font-size: 18px;
+}
+
+main .cartao .form .sexo-geral .sexo .masculino,
+main .cartao .form .sexo-geral .sexo .feminino {
+    display: none;
+}
+
+main .cartao .form .sexo-geral .sexo .sexo-masculino .masculino-label::after,
+main .cartao .form .sexo-geral .sexo .sexo-feminino .feminino-label::after
+ {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    content: '';
+    background-color: white;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 2px solid var(--light-pink);
+}
+
+main .cartao .form .sexo-geral .sexo .masculino:checked + .masculino-label::after,
+main .cartao .form .sexo-geral .sexo .feminino:checked + .feminino-label::after {
+    background-color: var(--light-pink);
+    border-color: white;
+    box-shadow: 0px 0px 30px white;
+    transition: 0.6s;
+}
+
+main .cartao .form .cadastre-se {
+    font-family: "Exo", sans-serif;
+    width: 220px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: var(--light-pink);
+    color: white;
+    font-size: 23px;
+    margin-top: 35px;
+}

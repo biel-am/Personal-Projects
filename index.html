@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lo-FiGram</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" href="./src/images/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/hover.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+</head>
+
+<body>
+    <main>
+        <div class="cartao">
+            <div class="content">
+                <img class="logo" src="src/images/logo.png" alt="logo">
+                <form class="form" method="post" action="">
+                    <div class="nome-sobrenome">
+                        <input class="nome" type="text" name="nome" placeholder="Nome">
+                        <input class="sobrenome" type="text" name="sobrenome" placeholder="Sobrenome">
+                    </div>
+
+                    <div class="email-email-confirm">
+                        <input class="email" type="email" name="email" placeholder="E-mail">
+                        <input class="email-confirm" type="email" name="email-confirm"
+                            placeholder="Confirme seu e-mail">
+                    </div>
+
+                    <div class="senha-senha-confirm">
+                        <input class="senha" type="password" name="senha" id="senha" placeholder="Senha">
+                        <input class="senha-confirm" type="password" name="senha-confirm" id="senha-confirm"
+                            placeholder="Confirme sua senha">
+                    </div>
+
+                    <div class="birthday-date">
+                        <h3 class="title">Data de Nascimento</h3>
+                        <input class="birthday" type="date" name="birthday">
+                    </div>
+
+                    <div class="sexo-geral">
+                        <h3 class="title">Sexo</h3>
+                        <div class="sexo">
+                            <div class="sexo-masculino">
+                                <input class="masculino" type="radio" name="sexo" id="masculino" value="masculino">
+                                <label class="masculino-label" for="masculino">Masculino</label>
+                            </div>
+
+                            <div class="sexo-feminino">
+                                <input class="feminino" type="radio" name="sexo" id="feminino" value="feminino">
+                                <label class="feminino-label" for="feminino">Feminino</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <input class="cadastre-se" type="submit" value="Cadastre-Se">
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

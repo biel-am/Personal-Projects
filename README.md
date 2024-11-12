@@ -1,0 +1,1 @@
+Meu primeiro projeto com objetivo de aplicar tudo que aprendi até o momento no curso e começar a desenvolver mais minhas habilidades com HTML e CSS

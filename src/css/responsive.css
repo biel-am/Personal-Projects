@@ -1,0 +1,65 @@
+@media (max-width: 550px) {
+    main .cartao {
+        width: 430px;
+    }
+}
+
+@media (max-width: 475px) {
+    main .cartao {
+        width: 380px;
+    }
+
+    main .cartao .form .nome-sobrenome input,
+    main .cartao .form .senha-senha-confirm input {
+        width: 160px;
+    }
+
+    main .cartao .form .email-email-confirm input {
+        width: 335px;
+    }
+}
+
+@media (max-width: 420px) {
+    main .cartao {
+        width: 350px;
+    }
+
+    main .cartao .form .nome-sobrenome input,
+    main .cartao .form .senha-senha-confirm input {
+        width: 150px;
+    }
+
+    main .cartao .form .email-email-confirm input {
+        width: 315px;
+    }
+}
+
+@media (max-width: 385px) {
+    main .cartao {
+        width: 315px;
+    }
+
+    main .cartao .form .nome-sobrenome input,
+    main .cartao .form .senha-senha-confirm input {
+        width: 135px;
+    }
+
+    main .cartao .form .email-email-confirm input {
+        width: 285px;
+    }
+}
+
+@media (max-width: 340px) {
+    main .cartao {
+        width: 300px;
+    }
+
+    main .cartao .form .nome-sobrenome input,
+    main .cartao .form .senha-senha-confirm input {
+        width: 125px;
+    }
+
+    main .cartao .form .email-email-confirm input {
+        width: 265px;
+    }
+}
